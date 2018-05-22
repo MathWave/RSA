@@ -99,12 +99,12 @@ btn_generate = Button(root, text="Сгенерировать!")
 btn_generate.bind('<Button-1>', lambda event: CreateKey())
 btn_generate.place(x=10, y=70)
 
-btn_crypt = Button(root, text="->")
-btn_crypt.bind('<Button-1>', lambda event: Encrypt())
-btn_crypt.place(x=150, y=70)
+btn_encrypt = Button(root, text="->")
+btn_encrypt.bind('<Button-1>', lambda event: Encrypt())
+btn_encrypt.place(x=150, y=70)
 
-btn_crypt = Button(root, text="<-")
-btn_crypt.bind('<Button-1>', lambda event: Decrypt())
-btn_crypt.place(x=200, y=70)
+btn_decrypt = Button(root, text="<-")
+btn_decrypt.bind('<Button-1>', lambda event: Decrypt())
+btn_decrypt.place(x=200, y=70)
 
 root.mainloop()
